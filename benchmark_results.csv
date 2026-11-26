@@ -1,0 +1,5 @@
+provider,model,site,seconds,input_tokens,output_tokens,thinking_tokens,cost_usd,valid_json_first_try,competitors,error
+gemini,gemini-3.5-flash-lite,https://basecamp.com,10.47,2844,2287,0,0.0065707000000000005,True,3,
+gemini,gemini-3.5-flash-lite,https://www.buffer.com,8.98,2730,2425,0,0.0068815000000000005,True,3,
+gemini,gemini-3.5-flash-lite,https://www.allbirds.com,10.29,3728,2236,0,0.0067084,True,3,
+gemini,gemini-3.5-flash-lite,https://www.zingermanscommunity.com,19.66,1916,2225,0,0.0061373,True,3,

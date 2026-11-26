@@ -1,0 +1,4 @@
+# Only needed to run benchmark.py against Anthropic and OpenAI models.
+# Not needed for the deployed server.
+anthropic
+openai

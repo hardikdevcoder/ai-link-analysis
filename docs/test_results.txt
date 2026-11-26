@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/hardikpatel/code/python/ai-link-analysis/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/hardikpatel/code/python/ai-link-analysis
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.12.1
+collecting ... collected 11 items
+
+tests/test_link_analysis.py::test_invalid_url PASSED                     [  9%]
+tests/test_link_analysis.py::test_localhost_blocked PASSED               [ 18%]
+tests/test_link_analysis.py::test_private_ip_blocked PASSED              [ 27%]
+tests/test_link_analysis.py::test_full_flow PASSED                       [ 36%]
+tests/test_link_analysis.py::test_llm_returns_garbage PASSED             [ 45%]
+tests/test_link_analysis.py::test_too_little_content PASSED              [ 54%]
+tests/test_link_analysis.py::test_cache_avoids_second_llm_call PASSED    [ 63%]
+tests/test_link_analysis.py::test_unsupported_service_marked_inferred PASSED [ 72%]
+tests/test_rate_limiter.py::test_blocks_after_per_minute_limit PASSED    [ 81%]
+tests/test_rate_limiter.py::test_each_ip_has_its_own_limit PASSED        [ 90%]
+tests/test_rate_limiter.py::test_daily_limit_applies_to_everyone PASSED  [100%]
+
+============================== 11 passed in 0.52s ==============================

@@ -1,0 +1,23 @@
+# Optional: lets Render create the service from this file ("Blueprint").
+# You can also create the service by hand in the Render dashboard with the same commands.
+services:
+  - type: web
+    name: ai-link-analysis
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips='*'
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: LLM_MODEL
+        value: gemini-3.5-flash-lite
+      - key: LLM_API_KEY
+        sync: false          # you type the real key in the Render dashboard
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "10"
+      - key: MAX_ANALYSES_PER_DAY
+        value: "200"

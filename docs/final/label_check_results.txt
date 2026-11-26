@@ -1,0 +1,35 @@
+docs/sample_1.json https://basecamp.com
+  service labels:    ['from_website', 'from_website', 'from_website', 'from_website', 'from_website']
+  competitor labels: {'ai_suggested'}
+  title 44 chars | meta 153 chars
+  platforms used:    ['Facebook', 'Google', 'Instagram', 'LinkedIn', 'X']
+  supporting items:  4
+  number flags:      none
+docs/sample_2.json https://thoughtbot.com
+  service labels:    ['from_website', 'from_website', 'from_website', 'from_website', 'from_website']
+  competitor labels: {'ai_suggested'}
+  title 44 chars | meta 146 chars
+  platforms used:    ['Facebook', 'Google', 'Instagram', 'LinkedIn', 'X']
+  supporting items:  5
+  number flags:      none
+docs/sample_3.json https://www.buffer.com
+  service labels:    ['from_website', 'from_website', 'from_website', 'from_website', 'from_website']
+  competitor labels: {'ai_suggested'}
+  title 36 chars | meta 134 chars
+  platforms used:    ['Facebook', 'Google', 'Instagram', 'LinkedIn', 'X']
+  supporting items:  5
+  number flags:      none
+docs/sample_4.json https://www.allbirds.com
+  service labels:    ['from_website', 'from_website', 'from_website', 'from_website', 'from_website']
+  competitor labels: {'ai_suggested'}
+  title 49 chars | meta 151 chars
+  platforms used:    ['Facebook', 'Google', 'Instagram', 'LinkedIn', 'X']
+  supporting items:  5
+  number flags:      none
+docs/sample_5.json https://www.zingermanscommunity.com
+  service labels:    ['from_website', 'from_website', 'from_website', 'inferred', 'from_website']
+  competitor labels: {'ai_suggested'}
+  title 47 chars | meta 145 chars
+  platforms used:    ['Facebook', 'Google', 'Instagram', 'LinkedIn', 'X']
+  supporting items:  4
+  number flags:      none

@@ -1,0 +1,270 @@
+{
+  "website": "https://thoughtbot.com",
+  "seconds": 11.8,
+  "usage": {
+    "input_tokens": 2356,
+    "output_tokens": 2342,
+    "thinking_tokens": 0
+  },
+  "analysis": {
+    "brand": {
+      "name": "thoughtbot",
+      "category": "Design and Development Agency",
+      "summary": "thoughtbot is a design and development agency that provides expert web and mobile application development, product design, AI integration, and team augmentation services for businesses at every stage."
+    },
+    "content_quality_note": "",
+    "competitor_analysis": {
+      "brand_overview": "thoughtbot provides senior-level software design, web and mobile development, and product strategy across complex and regulated industries.",
+      "main_category": "Software Design and Development Agency",
+      "products_and_services": [
+        "Web Development",
+        "Mobile Application Development",
+        "UX/UI and Product Design",
+        "Artificial Intelligence and Machine Learning",
+        "Team Augmentation and Fractional Leadership"
+      ],
+      "brand_profile": {
+        "main_service": "Web and Mobile App Design & Development",
+        "target_market": "Startups and enterprises in high-stakes or regulated industries such as healthcare, finance, and insurance",
+        "key_strength": "Experienced senior cross-functional teams delivering reliable software and accelerating release speeds",
+        "opportunity": "Expanding custom Generative AI workflow integrations and early product validation offerings"
+      },
+      "competitors": [
+        {
+          "name": "Ideo",
+          "main_service": "Product Design and Innovation",
+          "target_market": "Global enterprises and organizations",
+          "strengths": [
+            "World-renowned design reputation",
+            "Human-centered innovation approach"
+          ],
+          "weaknesses": [
+            "Higher price point",
+            "Less focus on ongoing engineering execution"
+          ],
+          "source": "ai_suggested"
+        },
+        {
+          "name": "AgileEngine",
+          "main_service": "Custom Software Development",
+          "target_market": "Mid-market to enterprise technology companies",
+          "strengths": [
+            "Large pool of vetted engineers",
+            "Strong team augmentation capabilities"
+          ],
+          "weaknesses": [
+            "Less emphasis on boutique design sprints",
+            "Generic outsourcing perception"
+          ],
+          "source": "ai_suggested"
+        },
+        {
+          "name": "Fueled",
+          "main_service": "Mobile App Development",
+          "target_market": "High-growth startups and top brands",
+          "strengths": [
+            "Award-winning mobile app portfolio",
+            "Sleek UI/UX execution"
+          ],
+          "weaknesses": [
+            "Niche focus heavily leaning toward mobile",
+            "Limited enterprise compliance integration"
+          ],
+          "source": "ai_suggested"
+        }
+      ],
+      "competitor_note": "",
+      "competitive_advantages": [
+        "Over a thousand positive outcomes with a senior cross-functional team",
+        "Proven framework for rapid validation and product strategy",
+        "Deep expertise in complex, regulated environments like healthcare"
+      ],
+      "positioning_opportunities": [
+        "Positioning as the go-to agency for AI-driven workflow transformation in regulated sectors",
+        "Highlighting accelerated release speeds and long-term maintainability for enterprise tech leaders"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "web and mobile product development agency",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Directly matches core agency capabilities",
+        "target_audience": "Product and engineering leaders"
+      },
+      {
+        "query": "hire ruby on rails developers",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Captures clients looking for specialized technical expertise",
+        "target_audience": "Tech founders and CTOs"
+      },
+      {
+        "query": "AI workflow integration for healthcare software",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Targets specialized service highlight in AI and healthcare",
+        "target_audience": "Healthcare technology executives"
+      },
+      {
+        "query": "how to run a product design sprint",
+        "platforms": [
+          "Instagram"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Builds brand awareness through thought leadership content",
+        "target_audience": "Designers and product managers"
+      },
+      {
+        "query": "team augmentation for agile software teams",
+        "platforms": [
+          "Facebook"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Attracts businesses seeking flexible team scaling",
+        "target_audience": "Business owners and engineering managers"
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "web and mobile development agency",
+      "secondary_keywords": [
+        "product design",
+        "AI development services",
+        "team augmentation",
+        "Ruby on Rails agency"
+      ],
+      "long_tail_keywords": [
+        "hire web and mobile app developers",
+        "custom software development for healthcare",
+        "product MVP development agency"
+      ],
+      "business_keywords": [
+        "thoughtbot",
+        "software development",
+        "UX UI design"
+      ],
+      "recommended_title": "thoughtbot | Web & Mobile Development Agency",
+      "title_structure_note": "Keeps the brand name recognizable while incorporating the exact primary keyword under 55 characters.",
+      "meta_description": "Hire thoughtbot, a top web and mobile development agency specializing in product design, AI integration, and engineering for complex environments.",
+      "supporting_content": [
+        {
+          "type": "Service landing page",
+          "title": "AI & Machine Learning Development Services",
+          "reason": "Captures demand for custom Generative AI workflow integration."
+        },
+        {
+          "type": "Industry page",
+          "title": "Software Development for Healthcare Tech",
+          "reason": "Addresses high-stakes and regulated environments featured on the site."
+        },
+        {
+          "type": "FAQ",
+          "title": "How Our Team Augmentation and Fractional Leadership Works",
+          "reason": "Answers common questions from prospective clients looking to scale engineering teams."
+        },
+        {
+          "type": "Blog topic",
+          "title": "Lessons Learned Building 1,000+ Web and Mobile Products",
+          "reason": "Leverages internal track record to build authority and organic search traffic."
+        },
+        {
+          "type": "Supporting article",
+          "title": "A Guide to Rapid Product Validation and Shaping Sprints",
+          "reason": "Provides actionable insights for early-stage founders and product managers."
+        }
+      ]
+    },
+    "top_services": [
+      {
+        "name": "Development",
+        "description": "Building and modernizing reliable software using Ruby on Rails, Hotwire, AI, and Machine Learning.",
+        "target_industry": "Technology and Software",
+        "target_customer": "CTOs and Engineering Leaders",
+        "main_benefit": "Scalable, compliant, and long-term maintainable code",
+        "source": "from_website"
+      },
+      {
+        "name": "Mobile",
+        "description": "Designing and developing robust multi-platform mobile applications.",
+        "target_industry": "Consumer Tech and Healthcare",
+        "target_customer": "Product Managers",
+        "main_benefit": "Seamless multi-platform performance and accelerated release speeds",
+        "source": "from_website"
+      },
+      {
+        "name": "UX, UI, and Product Design",
+        "description": "Crafting intuitive user experiences, comprehensive design systems, and conducting shaping sprints.",
+        "target_industry": "Digital Products",
+        "target_customer": "Design Leaders",
+        "main_benefit": "Clear product strategy and user-validated interfaces",
+        "source": "from_website"
+      },
+      {
+        "name": "Product MVP",
+        "description": "Rapid validation and early product strategy to pressure-test product ideas.",
+        "target_industry": "Startups and Enterprise Innovation",
+        "target_customer": "Founders",
+        "main_benefit": "Fast time-to-market with reduced risk",
+        "source": "from_website"
+      },
+      {
+        "name": "Team Augmentation",
+        "description": "Embedding senior cross-functional experts into your existing teams to improve processes.",
+        "target_industry": "Growing Businesses",
+        "target_customer": "Engineering Directors",
+        "main_benefit": "Immediate engineering capacity boost and process strengthening",
+        "source": "from_website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Product Managers",
+        "Engineering Leaders",
+        "Startup Founders"
+      ],
+      "secondary_audience": [
+        "Designers",
+        "Developers",
+        "Technology Executives"
+      ],
+      "industries": [
+        "Healthcare",
+        "Finance",
+        "Insurance",
+        "Technology"
+      ],
+      "business_types": [
+        "Startups",
+        "Scale-ups",
+        "Established Enterprises"
+      ],
+      "customer_profiles": [
+        "Technical founders seeking rapid MVP validation",
+        "Enterprise leaders modernizing legacy software in regulated markets"
+      ],
+      "geographic_focus": "Global across the Americas, Europe, West Asia, and Africa",
+      "customer_needs": [
+        "Reliable software delivery under complex constraints",
+        "Accelerated release speeds",
+        "Custom AI workflow integration",
+        "Experienced technical partnership"
+      ],
+      "customer_interests": [
+        "Agile software development",
+        "AI and machine learning tools",
+        "Design systems",
+        "Open source contributions"
+      ],
+      "recommended_marketing_segments": [
+        "Healthcare technology leaders looking for compliant software delivery",
+        "Early-stage founders needing rapid product strategy and MVP validation"
+      ]
+    }
+  }
+}
