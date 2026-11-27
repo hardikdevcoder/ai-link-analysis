@@ -1,259 +1,250 @@
 {
   "website": "https://www.zingermanscommunity.com",
-  "seconds": 20.8,
+  "seconds": 7.89,
   "usage": {
-    "input_tokens": 1915,
-    "output_tokens": 2199,
+    "input_tokens": 1916,
+    "output_tokens": 2167,
     "thinking_tokens": 0
   },
   "analysis": {
     "brand": {
       "name": "Zingerman\u2019s Community of Businesses",
       "category": "Food and Learning Enterprises",
-      "summary": "A family of food and learning entrepreneurial ventures located in Ann Arbor, Michigan, offering mail order, catering, training, and specialty food products."
+      "summary": "Zingerman\u2019s Community of Businesses (ZCoB) is a family of food and learning entrepreneurial ventures located in Ann Arbor, Michigan, offering mail order food, catering, training, and events."
     },
-    "content_quality_note": "The website content provides a good overview of the brand family, recent blog updates, events, and individual ventures, though specific deep-dive descriptions for every underlying business are brief.",
+    "content_quality_note": "The content provides a clear overview of the brand family, recent blog posts, and various ventures in Ann Arbor, but lacks deep transactional detail for individual service pages.",
     "competitor_analysis": {
-      "brand_overview": "Zingerman\u2019s is a multifaceted community of food and business education ventures renowned for artisan foods, mail order, and corporate training.",
-      "main_category": "Specialty Food and Corporate Training",
+      "brand_overview": "A collective of artisan food, catering, and business training enterprises centered around quality and customer service.",
+      "main_category": "Artisan Food and Business Training",
       "products_and_services": [
-        "Mail order specialty foods",
+        "Mail order food",
         "Catering",
-        "Business training seminars",
-        "Artisan bakery items",
-        "Event hosting"
+        "Business training and seminars",
+        "Specialty foods and cheese",
+        "Events and farm gatherings"
       ],
       "brand_profile": {
-        "main_service": "Specialty food retail and business education",
+        "main_service": "Artisan food retail and business education",
         "target_market": "Food enthusiasts and business professionals",
-        "key_strength": "Strong community brand equity and artisan product curation",
-        "opportunity": "Expanding digital business training and national reach for food products"
+        "key_strength": "Unique community model and strong brand heritage",
+        "opportunity": "Expand digital reach for mail order and training seminars"
       },
       "competitors": [
         {
-          "name": "Dean & DeLuca",
+          "name": "Dean & Deluca",
           "main_service": "Gourmet food retail",
-          "target_market": "Upscale food lovers",
+          "target_market": "Gourmet food lovers",
           "strengths": [
-            "Gourmet selection",
-            "Brand heritage"
+            "Brand recognition",
+            "Curated selection"
           ],
           "weaknesses": [
-            "Financial instability",
-            "Reduced footprint"
+            "Instability",
+            "Limited physical footprint"
           ],
           "source": "ai_suggested"
         },
         {
           "name": "Di Bruno Bros.",
-          "main_service": "Specialty food and catering",
-          "target_market": "Local and national gourmet shoppers",
+          "main_service": "Specialty food market and mail order",
+          "target_market": "Food enthusiasts",
           "strengths": [
-            "Authentic Italian heritage",
-            "Strong local presence"
+            "Rich heritage",
+            "Strong e-commerce"
           ],
           "weaknesses": [
-            "Limited national retail footprint"
-          ],
-          "source": "ai_suggested"
-        },
-        {
-          "name": "Murray's Cheese",
-          "main_service": "Artisan cheese and specialty foods",
-          "target_market": "Cheese enthusiasts and retail partners",
-          "strengths": [
-            "National distribution partnerships",
-            "Deep product expertise"
-          ],
-          "weaknesses": [
-            "Less diversified into corporate training"
+            "Regional focus"
           ],
           "source": "ai_suggested"
         }
       ],
-      "competitor_note": "",
+      "competitor_note": "Only two direct multi-faceted competitors with similar community and mail-order hybrid models were identified with high confidence.",
       "competitive_advantages": [
         "Diverse ecosystem of food and learning ventures",
-        "Unique cultural emphasis on customer service and business education via ZingTrain",
-        "Long-standing local and national reputation for quality"
+        "Deeply established local presence in Ann Arbor",
+        "Unique combination of retail, mail order, and corporate training"
       ],
       "positioning_opportunities": [
-        "Leveraging business training seminars for remote corporate teams",
-        "Expanding seasonal tastemaker collaborations"
+        "Positioning corporate training programs as industry-leading standards for customer service",
+        "Expanding national reach through curated artisan food mail order"
       ]
     },
     "target_search_queries": [
       {
-        "query": "Zingerman's mail order gourmet gifts",
+        "query": "Zingerman's mail order gourmet food",
         "platforms": [
           "Google"
         ],
         "intent": "Transactional",
-        "business_relevance": "Drives online specialty food sales",
-        "target_audience": "Holiday shoppers and food enthusiasts"
+        "business_relevance": "Directly drives e-commerce sales for specialty foods.",
+        "target_audience": "Gourmet food shoppers and gift buyers"
       },
       {
-        "query": "ZingTrain business customer service seminar",
+        "query": "best business customer service training seminar",
         "platforms": [
           "LinkedIn"
         ],
         "intent": "Commercial",
-        "business_relevance": "Attracts corporate clients for training programs",
+        "business_relevance": "Attracts business professionals to ZingTrain seminars.",
         "target_audience": "Business leaders and managers"
       },
       {
-        "query": "artisan cheese delivery Ann Arbor",
+        "query": "artisan cheese delivery online",
         "platforms": [
           "Instagram"
         ],
-        "intent": "Local Commercial",
-        "business_relevance": "Highlights specific specialty products",
-        "target_audience": "Local foodies and tourists"
+        "intent": "Transactional",
+        "business_relevance": "Connects visual social content to mail order purchases.",
+        "target_audience": "Foodies and cheese enthusiasts"
       },
       {
-        "query": "Zingerman's seasonal food collaborations",
+        "query": "Ann Arbor food community events",
         "platforms": [
           "Facebook"
         ],
         "intent": "Informational",
-        "business_relevance": "Engages community followers with new product drops",
-        "target_audience": "Loyal brand followers"
+        "business_relevance": "Drives local foot traffic and community engagement.",
+        "target_audience": "Ann Arbor locals and visitors"
       },
       {
-        "query": "customer loyalty business training",
+        "query": "customer loyalty expert training",
         "platforms": [
           "X"
         ],
-        "intent": "Educational",
-        "business_relevance": "Positions ZingTrain as a thought leader",
-        "target_audience": "Entrepreneurs and executives"
+        "intent": "Informational",
+        "business_relevance": "Promotes educational events and thought leadership.",
+        "target_audience": "Entrepreneurs and corporate executives"
       }
     ],
     "seo_improvements": {
-      "primary_keyword": "Zingerman\u2019s Community of Businesses",
+      "primary_keyword": "Zingermans Mail Order",
       "secondary_keywords": [
-        "Ann Arbor specialty food",
+        "Ann Arbor gourmet food",
         "ZingTrain business seminars",
-        "Zingerman's mail order"
+        "artisan food gifts"
       ],
       "long_tail_keywords": [
-        "gourmet food mail order Ann Arbor",
-        "corporate customer service training seminars",
-        "artisan bakery gifts online"
+        "buy artisan cheese online Ann Arbor",
+        "business customer service training workshops"
       ],
       "business_keywords": [
         "ZCoB",
-        "artisan food",
-        "catering",
-        "business education"
+        "Zingerman's community",
+        "artisan food"
       ],
-      "recommended_title": "Zingerman\u2019s Community of Businesses | Ann Arbor",
-      "title_structure_note": "Kept under 55 characters while retaining the exact brand name and location context for optimal local SEO.",
-      "meta_description": "Explore Zingerman\u2019s Community of Businesses in Ann Arbor for artisan food, mail order gifts, catering, and ZingTrain business education seminars.",
+      "recommended_title": "Zingerman's Mail Order & Artisan Food | Ann Arbor",
+      "title_structure_note": "Kept under 55 characters while front-loading the primary brand and location intent.",
+      "meta_description": "Shop gourmet food gifts, artisan cheese, and specialty items from Zingerman's Mail Order in Ann Arbor, Michigan. Discover our community of businesses.",
       "supporting_content": [
         {
           "type": "Service landing page",
-          "title": "ZingTrain Business Seminars & Consulting",
-          "reason": "Captures business leaders searching for professional development and customer loyalty training."
-        },
-        {
-          "type": "FAQ",
-          "title": "Zingerman's Mail Order Shipping & Ordering FAQ",
-          "reason": "Answers customer logistical questions regarding holiday food shipping and gift delivery."
-        },
-        {
-          "type": "Blog topic",
-          "title": "Behind the Scenes with Our Latest Culinary Tastemakers",
-          "reason": "Leverages seasonal collaborations to drive engagement on social and search platforms."
+          "title": "Zingerman's Mail Order Catalog",
+          "reason": "Captures high-intent e-commerce search traffic for specialty gifts."
         },
         {
           "type": "Industry page",
-          "title": "Corporate Gifting and Holiday Food Packages",
-          "reason": "Targets businesses looking to purchase gourmet food gifts for clients and employees."
+          "title": "ZingTrain Business Seminars",
+          "reason": "Outlines corporate training offerings for business leaders."
+        },
+        {
+          "type": "Location page",
+          "title": "Visiting Ann Arbor Businesses",
+          "reason": "Informs local visitors and tourists about the physical locations."
+        },
+        {
+          "type": "FAQ",
+          "title": "Frequently Asked Questions",
+          "reason": "Answers common questions regarding shipping, ordering, and events."
+        },
+        {
+          "type": "Blog topic",
+          "title": "Ari's Top Seasonal Food Picks",
+          "reason": "Engages food enthusiasts with curated recommendations and updates."
         }
       ]
     },
     "top_services": [
       {
         "name": "Zingerman\u2019s Mail Order",
-        "description": "Delivery of gourmet foods, specialty items, and gift baskets.",
-        "target_industry": "Gourmet Food Retail",
-        "target_customer": "Food enthusiasts and gift givers",
-        "main_benefit": "Access to hard-to-find artisan foods delivered home",
+        "description": "Shipping gourmet foods, artisan cheeses, and specialty gifts nationwide.",
+        "target_industry": "Food and Beverage",
+        "target_customer": "Gourmet food consumers and gift givers",
+        "main_benefit": "Access to hard-to-find artisan foods delivered to your door",
         "source": "from_website"
       },
       {
-        "name": "ZingTrain",
-        "description": "Business seminars and consulting focusing on customer service and organizational problem solving.",
+        "name": "ZingTrain Business Seminars",
+        "description": "Workshops and training focused on customer service and organizational problem solving.",
         "target_industry": "Corporate Training",
-        "target_customer": "Business owners, executives, and managers",
-        "main_benefit": "Actionable solutions for company culture and customer loyalty",
+        "target_customer": "Business leaders and teams",
+        "main_benefit": "Transformational strategies for customer loyalty and operations",
         "source": "from_website"
       },
       {
         "name": "Catering",
-        "description": "Food and event catering services provided by the business community.",
-        "target_industry": "Event Planning and Hospitality",
-        "target_customer": "Local event hosts and corporate planners",
-        "main_benefit": "High-quality artisan food for gatherings",
+        "description": "Food catering services for gatherings and events.",
+        "target_industry": "Event Hospitality",
+        "target_customer": "Event hosts and local organizations",
+        "main_benefit": "High quality food for special occasions",
         "source": "from_website"
       },
       {
-        "name": "Specialty Food Curation",
-        "description": "Handpicked artisan cheeses, baked goods, and seasonal products.",
+        "name": "Artisan Cheese Selection",
+        "description": "Curated fine flavor cheeses sourced globally and locally.",
         "target_industry": "Specialty Food",
-        "target_customer": "Local shoppers and food connoisseurs",
-        "main_benefit": "Unique culinary discoveries like imported cheeses and seasonal baked goods",
-        "source": "inferred"
+        "target_customer": "Cheese connoisseurs",
+        "main_benefit": "Unique, high-flavor culinary options",
+        "source": "from_website"
       },
       {
-        "name": "Business Publications and Events",
-        "description": "Publishing insights and hosting educational events on business leadership.",
-        "target_industry": "Business Education",
-        "target_customer": "Entrepreneurs and professionals",
-        "main_benefit": "Proven entrepreneurial frameworks and leadership inspiration",
+        "name": "Tastemaker Series",
+        "description": "Collaborative product collections created with influential culinary voices.",
+        "target_industry": "Culinary Retail",
+        "target_customer": "Food enthusiasts",
+        "main_benefit": "Exclusive access to chef-curated culinary products",
         "source": "from_website"
       }
     ],
     "target_audience": {
       "primary_audience": [
-        "Food enthusiasts",
-        "Business professionals",
-        "Local Ann Arbor community members"
+        "Food lovers",
+        "Artisan cheese enthusiasts",
+        "Gift buyers"
       ],
       "secondary_audience": [
-        "Corporate gift buyers",
-        "Event planners",
+        "Business professionals",
+        "Ann Arbor locals",
         "Entrepreneurs"
       ],
       "industries": [
+        "Food and Beverage",
         "Hospitality",
-        "Corporate Training",
-        "Gourmet Food Retail"
+        "Corporate Training"
       ],
       "business_types": [
-        "Small businesses",
-        "Corporate enterprises seeking training",
-        "Specialty food retailers"
+        "Retail",
+        "E-commerce",
+        "Consulting and Education"
       ],
       "customer_profiles": [
-        "Gourmet food lovers looking for high-end artisan products",
-        "Managers seeking organizational development strategies"
+        "Gourmet gift shoppers",
+        "Corporate managers seeking training"
       ],
-      "geographic_focus": "Ann Arbor, Michigan and national mail order customers",
+      "geographic_focus": "Ann Arbor, Michigan and nationwide via mail order",
       "customer_needs": [
-        "Quality artisan food products",
-        "Effective business management training",
-        "Reliable gourmet gift delivery"
+        "High-quality specialty food products",
+        "Effective customer service training",
+        "Unique culinary gifts"
       ],
       "customer_interests": [
-        "Artisan cheese and baked goods",
-        "Business leadership models",
-        "Culinary collaborations"
+        "Artisan cooking",
+        "Gourmet dining",
+        "Business culture improvement"
       ],
       "recommended_marketing_segments": [
-        "Holiday gourmet gift shoppers",
-        "Organizations investing in customer service training"
+        "Holiday gift shoppers",
+        "B2B training participants",
+        "Local community members"
       ]
     }
   }

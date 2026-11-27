@@ -4,9 +4,11 @@ A FastAPI service that takes a website URL, reads the page, asks an LLM to analy
 five structured sections: competitor comparison, top 5 search queries, SEO improvements, top 5
 services and target audience.
 
-- **Live demo:** TODO (add your deployed URL)
-- **API docs (Swagger):** TODO `https://<your-app>/docs`
-- **Endpoint:** `POST /link-analysis`
+- **Live demo:** https://ai-link-analysis-6r3m.onrender.com
+- **API docs (Swagger):** https://ai-link-analysis-6r3m.onrender.com/docs
+- **Endpoint:** `POST https://ai-link-analysis-6r3m.onrender.com/link-analysis` (POST only, so test it from the `/docs` page)
+
+> The demo runs on a free tier and may take up to a minute to wake up on the first request.
 
 ## How it works
 
@@ -138,7 +140,7 @@ Reasoning or "thinking" tokens are billed as output tokens, so the cost formula 
 
 Small sample (5 sites, one run each). Response time includes network latency and varies between runs.
 
-TODO: **Benchmark run on 26 Nov 2026** (same 5 websites for every model, one run each, my own measurements):
+ **Benchmark run on 26 Nov 2026** (same websites for every model, one run each, my own measurements). 4 of the 5 planned websites were analysed; [site name] could not be downloaded because [it blocked automated access / returned an error], so it was excluded.
 
 | Model | Runs | Valid JSON first try | Avg seconds | Avg input tokens | Avg output tokens | Avg thinking tokens | Avg cost / analysis | Cost / 1,000 analyses |
 |---|---|---|---|---|---|---|---|---|
@@ -146,10 +148,23 @@ TODO: **Benchmark run on 26 Nov 2026** (same 5 websites for every model, one run
 | claude-haiku-5-5 | not benchmarked | - | - | - | - | - | - | - |
 | gpt-6-luna | not benchmarked | - | - | - | - | - | - | - |
 
+claude-haiku-5-5 and gpt-6-luna had no API key available, so I make no claim about their speed or quality. Their prices and specs are in the comparison table above.
 
-Models marked "not benchmarked" had no API key, so I make no claim about their speed or quality.
+**Quality (automatic checks plus my own manual review):**
 
-**Quality** is a subjective 1-5 score I assigned by checking each result against its website: TODO (add your scores and one line per site).
+| Website | Automatic score | Checks passed | Failed checks | LLM second opinion | My manual notes |
+|---|---|---|---|---|---|
+| https://basecamp.com | 5/5 | 11 of 11 | none | 5/5 | [your note] |
+| https://thoughtbot.com | 5/5 (10 of 11 rounds up) | 10 of 11 | Primary keyword is not in the SEO title and meta description | 5/5 | [your note] |
+| https://www.buffer.com | 5/5 | 11 of 11 | none | 5/5 | [your note] |
+| https://www.allbirds.com | 5/5 | 11 of 11 | none | 5/5 | [your note] |
+| https://www.zingermanscommunity.com | 5/5 | 11 of 11 | none | 5/5 | [your note] |
+
+**How these scores were produced:** a script downloads each website again and runs 11 automatic checks (brand and services found in the page text, 3+ competitors labelled as AI suggestions, queries across platforms, new SEO title and meta description within length limits, supporting content, keyword placement, no invented statistics, audience filled in, site-specific terms used). Score = 1 + 4 x (checks passed / 11), rounded.
+
+This is an automatic proxy for quality, not a formal accuracy benchmark. The checks largely verify that the output follows the rules in the prompt, so high scores show consistency and grounding in the page text, not that every competitor is the best possible match. Competitors are labelled AI suggestions and are not verified research.
+
+The LLM second opinion was produced by the same model family that wrote the analysis, so it may be lenient.
 
 ### C. Cost per analysis
 
@@ -203,4 +218,16 @@ Environment variables: set `LLM_PROVIDER`, `LLM_MODEL` and `LLM_API_KEY` in the 
 
 ## Evidence
 
-Screenshots and logs are in `docs/`: TODO (add `docs/screenshots/` images of `/docs`, a real result, and `docs/test_results.txt`).
+**Swagger UI (`/docs`):**
+
+![Swagger UI](docs/screenshots/swagger-docs.png)
+
+**Sample analysis result:**
+
+![Sample result](docs/screenshots/sample-result.png)
+
+Test output: [docs/test_results.txt](docs/test_results.txt). Full sample responses: [docs/final/](docs/final/).
+
+**Live deployment:**
+
+![Live Swagger UI](docs/screenshots/live-docs.png)
